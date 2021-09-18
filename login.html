@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Basic JavaScript Login Form</title>
+		<style>
+		body {
+		    background-color: rgb(34, 34, 34);
+		}
+		
+		.login {
+		    width: 300px;
+		    margin: 0 auto;
+		    font-family: Courier New, Geneva, sans-serif;
+		}
+		.login h1 {
+		    text-align: center;
+		    color: #818181;
+		    font-size: 20px;
+		    padding: 18pc 0 20px 0;
+
+		}
+		.login input[type="password"],
+		.login input[type="text"] {
+		    width: 100%;
+		    padding: 15px;
+		    border: 0.2px solid #8efbff;
+			border-top: transparent;
+			border-right: transparent;
+			border-left: transparent;
+		    margin-bottom: 15px;
+		    box-sizing:border-box;
+		    background-color: rgb(27, 27, 27);
+		    color: white;
+		
+		}
+		.login input[type="submit"] {
+		    width: 100%;
+		    padding: 10px;
+		    background-color: rgb(27, 27, 27);
+		    border: 0;
+		    box-sizing: border-box;
+		    cursor: pointer;
+		    font-weight: bolder;
+		    color: #818181;
+			border: 0.2px solid #8efbff;
+			border-top: transparent;
+			border-right: transparent;
+			border-left: transparent;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="login">
+			<h1>Login Form</h1>
+			<form action="auth" method="POST">
+				<input type="text" name="username" placeholder="Username" required>
+				<input type="password" name="password" placeholder="Password" required>
+				<input type="submit" value="Login">
+			</form>
+		</div>
+	</body>
+</html>
