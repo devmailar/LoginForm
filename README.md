@@ -1,5 +1,5 @@
 # LoginForm
-⭐This is **LoginForm** which uses JavaScript instead of using PHP.
+⭐This is LoginForm which uses JavaScript instead of using PHP.
 
 # Installation
 * Install XAMPP : https://www.apachefriends.org/download.html
